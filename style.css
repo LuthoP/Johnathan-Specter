@@ -47,6 +47,7 @@ body {
 }
 #top-nav a:hover {
     border-bottom: 3px solid #F5EE56;
+    border-radius: 4px 4px;
     color: #F5EE56;
 }
 
@@ -215,3 +216,4 @@ body {
     opacity: 0.5;
     cursor: pointer;
 }
+
