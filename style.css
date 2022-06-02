@@ -61,7 +61,7 @@ body {
     color: inherit;
 }
 #get-in-touch:hover {    
-    box-shadow: 2px 2px 2px #8E8E8E;
+    box-shadow: 2px 2px 4px #8E8E8E;
     background-color: #e6de58;
 }
 
@@ -102,11 +102,11 @@ body {
     float: left;
     width: 35%;        
     margin-left: 10%;
-    margin-top: 20px;
+    margin-top: 20px;    
 }
 .hero-image img {
     width: 100%;
-    display: block;  
+    display: block;
 }
 .hero-image a {    
     text-decoration: none;
@@ -186,7 +186,7 @@ body {
     color: inherit;
 }
 #get-in-touch-two:hover {
-    box-shadow: 2px 2px 2px #8E8E8E;
+    box-shadow: 2px 2px 4px #8E8E8E;
     background-color: #e6de58;
 }
 
