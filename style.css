@@ -49,6 +49,7 @@ body {
     border-bottom: 3px solid #F5EE56;
     border-radius: 4px 4px;
     color: #F5EE56;
+    transition-delay: 0.1s;
 }
 
 #get-in-touch {
@@ -62,7 +63,8 @@ body {
 }
 #get-in-touch:hover {    
     box-shadow: 2px 2px 4px #8E8E8E;
-    background-color: #e6de58;
+    background-color: #e6de58;    
+    transition-delay: 0.1s;
 }
 
 #header a {
