@@ -27,7 +27,7 @@ body {
     padding: 10px 0;
     color: #E1E1E1;
     font-family: 'Prata', serif;
-    font-size: 20px;    
+    font-size: 1.4vw;
 }
 #logo:hover {
     color: #8E8E8E;
@@ -113,7 +113,7 @@ body {
 .hero-image a {    
     text-decoration: none;
     color: #e1e1e1;
-    font-size: 40px;    
+    font-size: 2vw;    
 }
 .hero-image a:hover {
     color: #8E8E8E;
@@ -219,3 +219,24 @@ body {
     cursor: pointer;
 }
 
+@media screen and (max-width: 600px){
+    #top-nav, #get-in-touch {
+        display: none;
+    }
+    #get-in-touch {
+        display: url('Hamburger Menu.svg');
+    }
+    #section-one {
+        width: 80%;        
+    }
+    .company-logo {
+        width: 50%;
+        
+    }
+    #logo {
+        font-size: 4vw;
+    }
+    .hero-image a {
+        font-size: 4vw;
+    }
+}
