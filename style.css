@@ -84,20 +84,11 @@ body {
 }
 
 #company-logos {
+    display: flex;
+    justify-content: space-between;
     max-width: 80%;
     margin: auto;
     padding: 50px 0;
-}
-.company-logo {
-    display: inline-block;
-    width: 16.40%;
-    margin: auto;
-    position: relative;
-}.company-logo img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .hero-image {    
