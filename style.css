@@ -220,9 +220,8 @@ body {
     #section-one {
         width: 80%;        
     }
-    .company-logo {
-        width: 50%;
-        
+    #company-logos {
+        flex-wrap: wrap;
     }
     #logo {
         font-size: 4vw;
