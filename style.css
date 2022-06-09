@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+} 
+body {margin: 0;}
+h1, h1 a, h2, h3, h4, h5, h6 { 
+    font-family: 'Prata', sans-serif;
+    color: #FFFFFF;
+    font-weight: 100;
+    font-size: 20px;
+    text-decoration: none;
+}
+p, a {
+    font-family: 'Inter', sans-serif;
+    color: #737374;
+    text-decoration: none;
+}
+.black-section {
+    background-color: #121213;       
+}
+.grey-section {
+    background-color: #32333B;    
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 1%;
+}
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.top-nav a {    
+    padding: 10px 20px;
+}
+#get-in-touch {
+    display: flex;
+    align-items: center;    
+}
+#get-in-touch a, #get-in-touch2 a {
+    padding: 10px 20px;
+    background-color: #F5EE56;
+    color: #121213;
+    font-family: 'Prata', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+#mobile-menu {display: none;}
+
+.about {
+    width: 80%;
+    margin: auto;
+} .about h1{
+    width: 60%; 
+    font-size: 60px;
+    padding-top: 1%;
+    margin-bottom: 0;
+} .about p {width: 55%;}
+
+.companies {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: auto;
+    padding: 50px 0;    
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: auto;
+} .card-content {max-width: 45%; padding-bottom: 60px;}
+.card-content img {width: 100%;}
+
+.story {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: auto;
+    padding: 40px 0;
+} .story div {max-width: 45%; margin: 0;}
+
+.rehash h1 {
+    margin: 0;
+    max-width: 45%;
+    font-size: 40px;
+} .rehash p {max-width: 45%;}
+.rehash {
+    max-width: 80%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: auto;    
+}
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+} .social-icons div { padding: 0 5px; }
+
+@media screen and (max-width: 992px) {
+    .header {width: 90%;}
+    .top-nav, #get-in-touch {
+        display: none;
+    }
+    #logo {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 200;       
+    }
+    #mobile-menu {
+        display: flex;
+        align-items: center;
+    }
+    .about {width: 90%;}
+    .about h1 {
+        width: 100%;
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+    } .about p {
+        width: 100%; 
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .companies {
+        flex-wrap: wrap;        
+    } .companies img {padding: 15px;}
+    .cards {
+        flex-direction: column; max-width: 90%;      
+    } .card-content {
+        max-width: 100%;
+        padding-bottom: 20px;
+    }
+    .story {
+        flex-direction: column;
+        max-width: 90%;
+    } .story div {max-width: 100%;}
+    .rehash {max-width: 90%;}
+    .rehash h1, .rehash p {max-width: 100%;}
+    .footer {max-width: 90%;}
+}
